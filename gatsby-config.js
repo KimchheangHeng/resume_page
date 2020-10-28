@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Kimchheang is a mobile app developer specializing in converting your requirement into fully functional applications.',
     siteUrl: 'https://kimchheang.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    image: 'og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@kimchheang_heng',
   },
   plugins: [
@@ -146,12 +146,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-45666519-2',
       },
     },
   ],
