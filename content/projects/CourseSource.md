@@ -3,6 +3,8 @@ date: '2016-04-01'
 title: 'CourseSource'
 github: 'https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project'
 external: ''
+ios: ''
+android: ''
 tech:
   - Angular
   - Node

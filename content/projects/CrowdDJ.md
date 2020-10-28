@@ -3,6 +3,8 @@ date: '2017-03-01'
 title: 'Crowd DJ'
 github: 'https://github.com/crowddj/crowddj-react'
 external: ''
+ios: ''
+android: ''
 tech:
   - React
   - Firebase

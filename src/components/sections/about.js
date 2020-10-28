@@ -38,7 +38,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--orange);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -60,7 +60,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--orange);
 
     &:hover,
     &:focus {
@@ -105,7 +105,7 @@ const StyledPic = styled.div`
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var(--orange);
       top: 20px;
       left: 20px;
       z-index: -1;
@@ -118,7 +118,7 @@ const About = () => {
     query {
       avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
+          fluid(maxWidth: 500, traceSVG: { color: "#f57c00" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['iOS Development', 'Swift', 'Objective-C', 'Flutter', 'Android Development'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,20 +141,23 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
-
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              Hello! I'm Kimchheang, a mobile app developer based in Kuala Lumpur, Malaysia.
+              I'm originally from the {' '}
+              <a href="https://www.google.com/maps/place/Cambodia">Kingdom of Cambodia</a>.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              I’m very passionate about mobile app development and user experience. I love seeing new challenges, getting to solve one problem at a time, and sharing my thoughts.
+              My goal is to always build products that solves what my clients need while I'm getting constantly learn & discover new things.
             </p>
+
+            <p>
+              During my university life at{' '}
+              <a href="http://rupp.edu.kh/">Royal University of Phnom Penh</a>, I had volunteered as a mentor and also a team leader of IT mentor in the following year;
+              My role was to share my personal expereience and help if they're facing any issues.
+            </p>
+
 
             <p>Here are a few technologies I've been working with recently:</p>
           </div>

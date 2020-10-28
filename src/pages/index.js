@@ -14,7 +14,8 @@ const IndexPage = ({ location }) => (
       <About />
       <Jobs />
       <Featured />
-      <Projects />
+      {/* Will add other project whenever I have good opensource on my github */}
+      {/* <Projects /> */ }   
       <Contact />
     </StyledMainContainer>
   </Layout>
