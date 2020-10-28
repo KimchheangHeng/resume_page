@@ -1,9 +1,9 @@
 ---
 date: '2020-01-12'
 title: 'Senior iOS Developer'
-company: 'HongLeong Bank Bhd'
+company: 'HLB Bhd'
 location: 'Kuala Lumpur, Malaysia'
-range: 'January 2017 - Present'
+range: 'January 2020 - Present'
 url: 'https://www.hlb.com.my/'
 ---
 

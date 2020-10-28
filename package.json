@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "resume_page",
+  "description": "Resume Page",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Kimchheang Heng <kimchheang.heng@icloud.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/kimchheangheng/resume_page"
   },
   "keywords": [
     "gatsby"

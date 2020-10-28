@@ -106,7 +106,7 @@ const Footer = () => {
 
       <StyledCredit tabindex="-1">
         <div>Designed &amp; Built by Brittany Chiang</div>
-        <a href="https://github.com/kimchheangheng/resume_page">
+        <a href="https://www.linkedin.com/in/kimchheang95/">
           <div>Modified by Kimchheang 👨🏻‍💻</div>
         </a>
       </StyledCredit>
